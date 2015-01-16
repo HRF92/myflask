@@ -1,0 +1,24 @@
+foobar/database.py:14:1: E302 expected 2 blank lines, found 1
+foobar/database.py:43:1: E302 expected 2 blank lines, found 1
+foobar/database.py:49:1: E302 expected 2 blank lines, found 1
+foobar/settings.py:6:1: E302 expected 2 blank lines, found 1
+foobar/utils.py:5:1: E302 expected 2 blank lines, found 1
+foobar/utils.py:10:21: E127 continuation line over-indented for visual indent
+foobar/user/forms.py:7:1: E302 expected 2 blank lines, found 1
+foobar/user/forms.py:9:21: E128 continuation line under-indented for visual indent
+foobar/user/forms.py:11:21: E128 continuation line under-indented for visual indent
+foobar/user/forms.py:13:33: E127 continuation line over-indented for visual indent
+foobar/user/forms.py:13:82: E501 line too long (83 > 81 characters)
+foobar/user/forms.py:15:17: E128 continuation line under-indented for visual indent
+foobar/user/forms.py:15:82: E501 line too long (86 > 81 characters)
+foobar/user/models.py:29:1: E302 expected 2 blank lines, found 1
+foobar/user/views.py:6:25: E127 continuation line over-indented for visual indent
+foobar/public/forms.py:7:1: E302 expected 2 blank lines, found 1
+foobar/public/views.py:4:21: E127 continuation line over-indented for visual indent
+foobar/public/views.py:16:1: E302 expected 2 blank lines, found 1
+foobar/public/views.py:35:1: E302 expected 2 blank lines, found 1
+foobar/public/views.py:42:1: E302 expected 2 blank lines, found 1
+foobar/public/views.py:47:25: E128 continuation line under-indented for visual indent
+foobar/public/views.py:48:25: E128 continuation line under-indented for visual indent
+foobar/public/views.py:49:25: E128 continuation line under-indented for visual indent
+foobar/public/views.py:56:1: E302 expected 2 blank lines, found 1

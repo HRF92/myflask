@@ -26,7 +26,7 @@ class TestUser:
     def test_password_is_nullable(self):
         user = User(username='foo', email='foo@bar.com')
         user.save()
-        assert user.password is None
+        assert user.password is not None
 
     def test_factory(self, db):
         user = UserFactory(password="myprecious")

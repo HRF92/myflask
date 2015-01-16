@@ -1,0 +1,5 @@
+foobar/user/__init__.py:3: 'views' imported but unused
+foobar/public/__init__.py:4: 'views' imported but unused
+foobar/public/views.py:3: 'session' imported but unused
+foobar/public/views.py:12: 'db' imported but unused
+foobar/public/views.py:46: local variable 'new_user' is assigned to but never used
