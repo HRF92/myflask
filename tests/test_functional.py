@@ -22,7 +22,7 @@ class TestLoggingIn:
         form['password'] = 'myprecious'
         # Submits
         res = form.submit().follow()
-        assert res.status_code == 200
+        assert res.status_code == 250
 
     def test_sees_alert_on_log_out(self, user, testapp):
         res = testapp.get("/")
