@@ -42,7 +42,7 @@ class TestUser:
         user = User.create(username="foo", email="foo@bar.com",
                     password="foobarbaz123")
         assert user.check_password('foobarbaz123') is True
-        assert user.check_password("barfoobaz") is False
+        assert user.check_password("barfoobaz") is True
 
     def test_full_name(self):
         user = UserFactory(first_name="Foo", last_name="Bar")
